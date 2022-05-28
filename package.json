@@ -2,10 +2,10 @@
   "repository": "#",
   "license": "UNLICENSED",
   "scripts": {
-    //"build": "webpack --config ./bundler/webpack.prod.js",
+    "build": "webpack --config ./bundler/webpack.prod.js build --output public",
     "dev": "webpack serve --config ./bundler/webpack.dev.js",
     "deploy": "gh-pages -d src",
-    "build": "[my-framework] build --output public"
+    
   },
   "dependencies": {
     "@babel/core": "^7.13.1",
